@@ -43,7 +43,10 @@
  * 
  * Therefore 53 minutes will be used for the billing API since each of the data are executed asynchronously
  * 
- * Then we could set the max limit time to = 1hr(3600s)  
+ * Then we could set the max limit time to = 1hr(3600s) 
+ 
+ 
+ ## The same approach can be used for 100000 customers, it could paginated to 20000 into each variable and then it works
 
 
 
