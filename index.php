@@ -20,10 +20,12 @@
  * 
  * Originally, PHP performs more of Synchronous operation. However, we could use some libraries to perform the asynchronous operation
  * 
- * Libraries like GuzzlePHP, Pthreads, 
+ * Libraries like GuzzlePHP, Pthreads, parallel, curl_multi_add_handle e.t.c
  * 
  * 
  *                               #### APPROACH ####
+ * 
+ * We will be using GUzzlePHP for this project
  * 
  * We will paginate the 10000 customer data to 5 different variables
  * 
@@ -49,6 +51,8 @@
 */
 
 set_time_limit(3600);
+
+
 
 
 ?>
